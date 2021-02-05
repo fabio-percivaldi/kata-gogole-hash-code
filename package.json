@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "javascript-lp-solver": "^0.4.24",
     "lodash": "^4.17.20",
     "tap": "^14.11.0"
   },
