@@ -18,12 +18,12 @@ tap.test('index.js', t => {
       assert.end()
     })
 
-    t.skip('othersLine', assert => {
+    t.test('othersLine', assert => {
       assert.equal(deliveryManager.pizzas.length, 5)
       assert.equal(deliveryManager.pizzas[0].ingredientsCount, 3)
       assert.equal(deliveryManager.pizzas[0].ingredients[0], 'onion')
-      assert.equal(deliveryManager.pizzas[0].ingredients[0], 'pepper')
-      assert.equal(deliveryManager.pizzas[0].ingredients[0], 'olive')
+      assert.equal(deliveryManager.pizzas[0].ingredients[1], 'pepper')
+      assert.equal(deliveryManager.pizzas[0].ingredients[2], 'olive')
       assert.end()
     })
 
